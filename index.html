@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quote of the Day</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poetsen+One&family=Timmana&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+
+  <body>
+    <section class="parent-Quotes  py-5 my-5">
+      <div class="container">
+        <div class="Quotes text-center">
+          <div class="content-Quotes">
+            <h1 class=" mb-5">Quote of the Day</h1>
+            <p class="my-4 text-muted">Press the button below to recieve a random quote!</p>
+            <button onclick="randomQuotes()" class="rounded-pill mb-4 mt-2">New Quote</button>
+            <p id="Quote-Output" class="my-4 "></p>
+            <p id="author-Output" class="text-color"></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="js/index.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

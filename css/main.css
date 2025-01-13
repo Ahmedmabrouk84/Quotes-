@@ -1,0 +1,43 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Timmana", sans-serif;
+  background-color: rgb(190, 93, 24);
+  font-weight: 400;
+}
+.text-color{
+  color: rgb(255, 228, 196);
+}
+.parent-Quotes .Quotes .content-Quotes h1 {
+  font-family: "Poetsen One", sans-serif;
+  font-size: 80px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: rgb(260, 260, 260);
+
+}
+.parent-Quotes .Quotes .content-Quotes p {
+  font-weight: 400;
+  font-size: 45px;
+}
+.parent-Quotes .Quotes .content-Quotes button {
+  font-size: 30px;
+  background-color:rgb(10, 62, 167);
+  border: solid 2px #ffffffb4;
+  color: #fff;
+  padding: 25px 60px;
+  transition: all 0.3s;
+  font-weight: 600;
+  letter-spacing: 1.75px;
+
+}
+.parent-Quotes .Quotes .content-Quotes button:hover{
+background-color:rgb(23, 148, 40);
+color: rgb(10, 62, 167);
+border: solid 2px rgb(10, 62, 167);
+
+}
